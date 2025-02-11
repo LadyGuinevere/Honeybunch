@@ -25,7 +25,7 @@ function selectOption(option) {
 
 // Function to flash rainbow colors and then execute a callback function
 function flashRainbowColors(callback) {
-    var colors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
+    var colors = ['#C00000', '#FF3334', '#FF6F77', '#FFBBC1', '#FFDEE3', '#FF8896', '#D5666D'];
     var i = 0;
     var interval = setInterval(function() {
         document.body.style.backgroundColor = colors[i];
